@@ -30,14 +30,14 @@ export default function SignUpView() {
       />
       <TextInput
         style={styles.input}
-        placeholder="Contraseña"
+        placeholder="Correo Electrónico"
         secureTextEntry
         value={contrasena}
         onChangeText={setContrasena}
       />
       <TextInput
         style={styles.input}
-        placeholder="Confirmar contraseña"
+        placeholder="Contraseña"
         secureTextEntry
         value={confirmarContrasena}
         onChangeText={setConfirmarContrasena}
@@ -48,7 +48,7 @@ export default function SignUpView() {
         </TouchableOpacity>
 
         <TouchableOpacity style={styles.buttonB} onPress={handleSignUp}>
-          <Text style={styles.buttonText}>Ya tengo cuenta</Text>
+          <Text style={styles.buttonText}>Iniciar Sesión</Text>
         </TouchableOpacity>
       </View>
     </View>
